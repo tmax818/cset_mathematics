@@ -1,0 +1,71 @@
+#+title:      CSET mathematics preparation
+#+date:       [2025-03-10 Mon 13:16]
+#+filetags:   :cset:
+#+identifier: 20250310T131634
+#+STARTUP: indent
+
+
+
+* subtest 1
+:properties:
+:chapters: 1, 2
+:end:
+
+** [[file:~/Dropbox/pdfs/CS_211subtestdescription.pdf][subtest description]]
+
+*** number and quantity (chapter 1)
+
+**** the real and complex number system
+:properties:
+:section: 1.1
+:page: 13
+:end:
+****** properties of real number system
+
+******* Closure
+
+******** addition(subtraction)
+
+******** multiplication
+
+******* Associative
+
+******* Commutative
+
+******* Identity
+
+******* Inverse
+
+******* Distributive
+
+****** perform opperations
+****** solve real-world 
+****** apply proportional relationships
+:ratio: the comparrison of a and b as a quotient, written as $\frac{a}{b}$ or $a:b$ in words it is read a *to* b.
+
+
+
+**** number theory
+:properties:
+:section: 1.2
+:page: 44
+:end:
+*** algebra (chapter 2) 
+**** algebraic structures
+:algebraic_structure: one or more non-empty sets along with one or more binary operations and some properties the sets and operations satisfy.
+
+* subtest 2
+:properties:
+:chapters: 3, 4
+:end:
+
+
+** [[file:~/Dropbox/pdfs/CS_212subtestdescription.pdf][subtest description]]
+
+
+* subtest 3
+:properties:
+:chapters: 5
+:end:
+
+
