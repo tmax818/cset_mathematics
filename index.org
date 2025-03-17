@@ -6,66 +6,98 @@
 
 
 
-* subtest 1
-:properties:
-:chapters: 1, 2
-:end:
+* number and quantity; algebra
 
-** [[file:~/Dropbox/pdfs/CS_211subtestdescription.pdf][subtest description]]
+** number and quantity
 
-*** number and quantity (chapter 1)
+*** the real and complex number system
 
-**** the real and complex number system
-:properties:
-:section: 1.1
-:page: 13
-:end:
-****** properties of real number system
+**** properties of the real number system
 
-******* Closure
+**** subsets of the real numbers
 
-******** addition(subtraction)
+**** division involving zero
 
-******** multiplication
+**** completeness of the real numbers
 
-******* Associative
+**** converting a fraction to a decimal
 
-******* Commutative
 
-******* Identity
+*** number theory
 
-******* Inverse
+**** divisibility
 
-******* Distributive
+**** theorems involving divisibility
 
-****** perform opperations
-****** solve real-world 
-****** apply proportional relationships
-:ratio: the comparrison of a and b as a quotient, written as $\frac{a}{b}$ or $a:b$ in words it is read a *to* b.
+**** mathematical induction
+
+**** the division and Euclidian algorithm
+
+**** applying the Fundamental Theorem of Arithmetic
+
+**** finding the greatest common factor
+
+**** finding the least common multiple
+
+**** the relationship between the lcm and the gcf (gcd)
 
 
 
-**** number theory
-:properties:
-:section: 1.2
-:page: 44
-:end:
-*** algebra (chapter 2) 
-**** algebraic structures
-:algebraic_structure: one or more non-empty sets along with one or more binary operations and some properties the sets and operations satisfy.
+** algebra
 
-* subtest 2
-:properties:
-:chapters: 3, 4
-:end:
+*** algebraic structures
+
+*** polynomial equations and inequalities
+
+*** function
+
+**** definitions
+
+**** four ways to represent function
+
+**** combining functions 
+
+**** composition of functions
+
+**** properties of functions 
+
+*** linear algebra
+
+**** introduction to vectors
 
 
-** [[file:~/Dropbox/pdfs/CS_212subtestdescription.pdf][subtest description]]
+* geometry; probability and statistics
 
+** geometry
 
-* subtest 3
-:properties:
-:chapters: 5
-:end:
+*** plane Euclidean geometry
+
+**** Euclidean plan geometry
+
+*** coordinate geometry
+
+*** 3D geometry
+
+*** transformational geometry
+
+** probability and statistics
+
+*** probability
+
+*** statistics
+
+* calculus
+
+** calculus
+
+*** trigonometry
+
+*** limits and continuity
+
+*** derivatives and applications
+
+*** integrals and applications
+
+*** sequences and series
 
 
