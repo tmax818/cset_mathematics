@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-03-16 Sun 19:52 -->
+<!-- 2025-03-17 Mon 20:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CSET mathematics preparation</title>
@@ -193,6 +193,38 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
@@ -201,51 +233,51 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org72646eb">1. number and quantity; algebra</a>
+<li><a href="#org52148bd">1. number and quantity; algebra</a>
 <ul>
-<li><a href="#orgc2c60f8">1.1. number and quantity</a>
+<li><a href="#orgba2c18e">1.1. number and quantity</a>
 <ul>
-<li><a href="#org925e05d">1.1.1. the real and complex number system</a></li>
-<li><a href="#org8260901">1.1.2. number theory</a></li>
+<li><a href="#orga2c0a66">1.1.1. the real and complex number system</a></li>
+<li><a href="#org3b261a9">1.1.2. number theory</a></li>
 </ul>
 </li>
-<li><a href="#orga7619ee">1.2. algebra</a>
+<li><a href="#org72fb482">1.2. algebra</a>
 <ul>
-<li><a href="#orgdee82ef">1.2.1. algebraic structures</a></li>
-<li><a href="#org2c330a1">1.2.2. polynomial equations and inequalities</a></li>
-<li><a href="#orgd9775d5">1.2.3. function</a></li>
-<li><a href="#orgd074df8">1.2.4. linear algebra</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgf409b4e">2. geometry; probability and statistics</a>
-<ul>
-<li><a href="#orga7a1434">2.1. geometry</a>
-<ul>
-<li><a href="#orgc4f74eb">2.1.1. plane Euclidian geometry</a></li>
-<li><a href="#orgddf9e9c">2.1.2. coordinate geometry</a></li>
-<li><a href="#org1699a40">2.1.3. 3D geometry</a></li>
-<li><a href="#orgb6b0bb4">2.1.4. transformational geometry</a></li>
-</ul>
-</li>
-<li><a href="#org04fee62">2.2. probability and statistics</a>
-<ul>
-<li><a href="#org9dfb4d6">2.2.1. probability</a></li>
-<li><a href="#orgd6eda56">2.2.2. statistics</a></li>
+<li><a href="#orgd29f1a5">1.2.1. algebraic structures</a></li>
+<li><a href="#orged6cb6c">1.2.2. polynomial equations and inequalities</a></li>
+<li><a href="#org790d696">1.2.3. function</a></li>
+<li><a href="#orgd23df54">1.2.4. linear algebra</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgab0bf7f">3. calculus</a>
+<li><a href="#org875958f">2. geometry; probability and statistics</a>
 <ul>
-<li><a href="#org8b831be">3.1. calculus</a>
+<li><a href="#org3f46df4">2.1. geometry</a>
 <ul>
-<li><a href="#org58403a1">3.1.1. trigonometry</a></li>
-<li><a href="#org7fe020e">3.1.2. limits and continuity</a></li>
-<li><a href="#orgbeb2d91">3.1.3. derivatives and applications</a></li>
-<li><a href="#orgad6b469">3.1.4. integrals and applications</a></li>
-<li><a href="#orgbcdd8b5">3.1.5. sequences and series</a></li>
+<li><a href="#org3986b43">2.1.1. plane Euclidean geometry</a></li>
+<li><a href="#org6fb1afe">2.1.2. coordinate geometry</a></li>
+<li><a href="#org9f14bf5">2.1.3. three-dimensional geometry</a></li>
+<li><a href="#org23f1b10">2.1.4. transformational geometry</a></li>
+</ul>
+</li>
+<li><a href="#org961548b">2.2. probability and statistics</a>
+<ul>
+<li><a href="#org1e94d4e">2.2.1. probability</a></li>
+<li><a href="#org4adeb77">2.2.2. statistics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7d8f5f3">3. calculus</a>
+<ul>
+<li><a href="#org482bf57">3.1. calculus</a>
+<ul>
+<li><a href="#orgb3d4b70">3.1.1. trigonometry</a></li>
+<li><a href="#org0fd485d">3.1.2. limits and continuity</a></li>
+<li><a href="#orgd5dbe1a">3.1.3. derivatives and applications</a></li>
+<li><a href="#org3ac52a2">3.1.4. integrals and applications</a></li>
+<li><a href="#orgea1c384">3.1.5. sequences and series</a></li>
 </ul>
 </li>
 </ul>
@@ -253,137 +285,512 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org72646eb" class="outline-2">
-<h2 id="org72646eb"><span class="section-number-2">1.</span> number and quantity; algebra</h2>
+<div id="outline-container-org52148bd" class="outline-2">
+<h2 id="org52148bd"><span class="section-number-2">1.</span> number and quantity; algebra</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgc2c60f8" class="outline-3">
-<h3 id="orgc2c60f8"><span class="section-number-3">1.1.</span> number and quantity</h3>
+<div id="outline-container-orgba2c18e" class="outline-3">
+<h3 id="orgba2c18e"><span class="section-number-3">1.1.</span> number and quantity</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-org925e05d" class="outline-4">
-<h4 id="org925e05d"><span class="section-number-4">1.1.1.</span> the real and complex number system</h4>
+<div id="outline-container-orga2c0a66" class="outline-4">
+<h4 id="orga2c0a66"><span class="section-number-4">1.1.1.</span> the real and complex number system</h4>
 <div class="outline-text-4" id="text-1-1-1">
 </div>
 <ol class="org-ol">
-<li><a id="org8be6dec"></a>properties of the real number system<br /></li>
+<li><a id="org2070b8d"></a>properties of the real number system<br />
+<div class="outline-text-5" id="text-1-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org68135c9"></a>clousure<br />
+<div class="outline-text-6" id="text-1-1-1-1-1">
+<p>
+the sum/product of real numbers is a real number
+</p>
+</div>
+</li>
+<li><a id="org2bcc1fb"></a>associative<br />
+<div class="outline-text-6" id="text-1-1-1-1-2">
+<p>
+grouping of the sum/product doesn't matter
+</p>
+</div>
+</li>
+<li><a id="org9059d14"></a>commutative<br />
+<div class="outline-text-6" id="text-1-1-1-1-3">
+<p>
+order doesn't matter in sum/product of real numbers
+</p>
+</div>
+</li>
+<li><a id="orgf5bf40a"></a>identity<br />
+<div class="outline-text-6" id="text-1-1-1-1-4">
+<p>
+an identity acting on a number returns the same number
+</p>
+</div>
+</li>
+<li><a id="org3a374d1"></a>inverse<br /></li>
+<li><a id="org9087e9f"></a>distributive<br /></li>
+</ol>
+</li>
+<li><a id="org7277f4d"></a>subsets of the real numbers<br />
+<ol class="org-ol">
+<li><a id="orga7c8274"></a>rational numbers<br /></li>
 
-<li><a id="orgb477e84"></a>subsets of the real numbers<br /></li>
+<li><a id="org383143f"></a>irrational numbers<br /></li>
 
-<li><a id="orgf4ab324"></a>division involving zero<br /></li>
+<li><a id="org554db5b"></a>integers<br /></li>
 
-<li><a id="org9794909"></a>completeness of the real numbers<br /></li>
+<li><a id="orgbd3bc75"></a>whole numbers<br /></li>
+</ol>
+</li>
+<li><a id="org831e849"></a>division involving zero<br />
+<ol class="org-ol">
+<li><a id="orgfadbd6c"></a>zero divided by a non-zero number<br /></li>
 
-<li><a id="orgf596116"></a>converting a fraction to a decimal<br /></li>
+<li><a id="orgc3ed523"></a>non-zero number divided by zero<br /></li>
+
+<li><a id="org7c35936"></a>zero divided by zero<br /></li>
+</ol>
+</li>
+<li><a id="org63e724c"></a>completeness of the real numbers<br /></li>
+
+
+<li><a id="org4b9d264"></a>converting a fraction to a decimal<br /></li>
+
+<li><a id="orgaa67e5e"></a>converting from decimal to fraction<br /></li>
+
+<li><a id="org9d598ed"></a>percents<br /></li>
+
+<li><a id="org6918455"></a>scientific notation<br /></li>
+
+<li><a id="orge0b927e"></a>operation with fractions<br /></li>
+
+<li><a id="org2ec9d8f"></a>operations witht decimals<br /></li>
+
+<li><a id="orgb48d2c4"></a>exponents<br /></li>
+
+<li><a id="orgf2a13ae"></a>ratio and proportion<br /></li>
+
+<li><a id="org9a77f9f"></a>the complex numbers<br /></li>
 </ol>
 </div>
-<div id="outline-container-org8260901" class="outline-4">
-<h4 id="org8260901"><span class="section-number-4">1.1.2.</span> number theory</h4>
+<div id="outline-container-org3b261a9" class="outline-4">
+<h4 id="org3b261a9"><span class="section-number-4">1.1.2.</span> number theory</h4>
 <div class="outline-text-4" id="text-1-1-2">
 </div>
 <ol class="org-ol">
-<li><a id="orgc820ccb"></a>divisibility<br /></li>
+<li><a id="org227e4fc"></a>divisibility<br /></li>
 
-<li><a id="orgc13d5d9"></a>theorems involving divisibility<br /></li>
+<li><a id="orgeea1bbf"></a>theorems involving divisibility<br /></li>
 
-<li><a id="orge2cb2e7"></a>mathematical induction<br /></li>
+<li><a id="orgb090054"></a>mathematical induction<br /></li>
 
-<li><a id="org7f60694"></a>the division and Euclidian algorithm<br /></li>
+<li><a id="org0d69457"></a>the division and Euclidian algorithm<br /></li>
 
-<li><a id="orgb909350"></a>applying the Fundamental Theorem of Arithmetic<br /></li>
+<li><a id="org8e16e43"></a>applying the Fundamental Theorem of Arithmetic<br /></li>
 
-<li><a id="orgbdbac13"></a>finding the greatest common factor<br /></li>
+<li><a id="org4c5f0bf"></a>finding the greatest common factor<br /></li>
 
-<li><a id="org02bc8ad"></a>finding the least common multiple<br /></li>
+<li><a id="org4f1f448"></a>finding the least common multiple<br /></li>
 
-<li><a id="org34a6e78"></a>the relationship between the lcm and the gcf (gcd)<br /></li>
+<li><a id="org919223b"></a>the relationship between the lcm and the gcf (gcd)<br /></li>
 </ol>
 </div>
 </div>
-<div id="outline-container-orga7619ee" class="outline-3">
-<h3 id="orga7619ee"><span class="section-number-3">1.2.</span> algebra</h3>
+<div id="outline-container-org72fb482" class="outline-3">
+<h3 id="org72fb482"><span class="section-number-3">1.2.</span> algebra</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-orgdee82ef" class="outline-4">
-<h4 id="orgdee82ef"><span class="section-number-4">1.2.1.</span> algebraic structures</h4>
+<div id="outline-container-orgd29f1a5" class="outline-4">
+<h4 id="orgd29f1a5"><span class="section-number-4">1.2.1.</span> algebraic structures</h4>
+<div class="outline-text-4" id="text-1-2-1">
 </div>
+<ol class="org-ol">
+<li><a id="orga053722"></a>binary operations<br /></li>
 
-<div id="outline-container-org2c330a1" class="outline-4">
-<h4 id="org2c330a1"><span class="section-number-4">1.2.2.</span> polynomial equations and inequalities</h4>
-</div>
+<li><a id="org313c5da"></a>groups<br /></li>
 
-<div id="outline-container-orgd9775d5" class="outline-4">
-<h4 id="orgd9775d5"><span class="section-number-4">1.2.3.</span> function</h4>
-</div>
+<li><a id="orgdaf15cf"></a>Abelian groups<br /></li>
 
-<div id="outline-container-orgd074df8" class="outline-4">
-<h4 id="orgd074df8"><span class="section-number-4">1.2.4.</span> linear algebra</h4>
+<li><a id="org84354ee"></a>rings<br /></li>
+
+<li><a id="org65bdef8"></a>fields<br /></li>
+
+<li><a id="org1781582"></a>using properties of the real numbers<br /></li>
+
+<li><a id="orged2864c"></a>mathematical arguments involving the reals<br /></li>
+
+<li><a id="orge52bb36"></a>properties of the complex numbers<br /></li>
+
+<li><a id="orgfd34d0a"></a>mathematical arguments involving complex numbers<br /></li>
+
+<li><a id="orgd70ef2c"></a>ordering<br /></li>
+
+<li><a id="org2c110a6"></a>solvability of polynomials over complex numbers<br /></li>
+</ol>
+</div>
+<div id="outline-container-orged6cb6c" class="outline-4">
+<h4 id="orged6cb6c"><span class="section-number-4">1.2.2.</span> polynomial equations and inequalities</h4>
+<div class="outline-text-4" id="text-1-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="org6f7c0dd"></a>the fundamental theorem of algebra (FTA)<br />
+<ol class="org-ol">
+<li><a id="org2af0ccd"></a>applying the fundamental theorem of algebra<br /></li>
+</ol>
+</li>
+<li><a id="org915308f"></a>rational root theorem (RRT)<br />
+<ol class="org-ol">
+<li><a id="orge8770c7"></a>applying the rational root theorem<br /></li>
+</ol>
+</li>
+<li><a id="org1ca3c45"></a>conjugate root theorem (CRT)<br />
+<ol class="org-ol">
+<li><a id="orge7f532c"></a>applying<br /></li>
+</ol>
+</li>
+<li><a id="org026f662"></a>the binomial theorem<br />
+<ol class="org-ol">
+<li><a id="org22c64b3"></a>applying<br /></li>
+</ol>
+</li>
+<li><a id="orgdd86ce5"></a>the remainder theorem<br /></li>
+
+<li><a id="org1342c55"></a>the factor theorem<br />
+<ol class="org-ol">
+<li><a id="orgcd26fb6"></a>applying<br /></li>
+</ol>
+</li>
+<li><a id="orgbaf02fe"></a>the quadratic formula theorem<br />
+<ol class="org-ol">
+<li><a id="orge12b801"></a>applying<br /></li>
+</ol>
+</li>
+<li><a id="orga6ebc8d"></a>polynomial inequalities<br /></li>
+</ol>
+</div>
+<div id="outline-container-org790d696" class="outline-4">
+<h4 id="org790d696"><span class="section-number-4">1.2.3.</span> function</h4>
+<div class="outline-text-4" id="text-1-2-3">
+</div>
+<ol class="org-ol">
+<li><a id="org9317de6"></a>definitions<br /></li>
+
+<li><a id="orgbb362d5"></a>four ways to represent function<br /></li>
+
+<li><a id="orgfa61cdf"></a>combining functions<br /></li>
+
+<li><a id="org37532ac"></a>composition of functions<br /></li>
+
+<li><a id="org0aeed3d"></a>properties of functions<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgd23df54" class="outline-4">
+<h4 id="orgd23df54"><span class="section-number-4">1.2.4.</span> linear algebra</h4>
+<div class="outline-text-4" id="text-1-2-4">
+</div>
+<ol class="org-ol">
+<li><a id="org2248be1"></a>introduction to vectors<br /></li>
+</ol>
 </div>
 </div>
 </div>
-<div id="outline-container-orgf409b4e" class="outline-2">
-<h2 id="orgf409b4e"><span class="section-number-2">2.</span> geometry; probability and statistics</h2>
+<div id="outline-container-org875958f" class="outline-2">
+<h2 id="org875958f"><span class="section-number-2">2.</span> geometry; probability and statistics</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orga7a1434" class="outline-3">
-<h3 id="orga7a1434"><span class="section-number-3">2.1.</span> geometry</h3>
+<div id="outline-container-org3f46df4" class="outline-3">
+<h3 id="org3f46df4"><span class="section-number-3">2.1.</span> geometry</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-orgc4f74eb" class="outline-4">
-<h4 id="orgc4f74eb"><span class="section-number-4">2.1.1.</span> plane Euclidian geometry</h4>
+<div id="outline-container-org3986b43" class="outline-4">
+<h4 id="org3986b43"><span class="section-number-4">2.1.1.</span> plane Euclidean geometry</h4>
+<div class="outline-text-4" id="text-2-1-1">
 </div>
+<ol class="org-ol">
+<li><a id="org61d7b12"></a>Euclidean plan geometry<br />
+<ol class="org-ol">
+<li><a id="org76792f7"></a>definitions<br /></li>
 
-<div id="outline-container-orgddf9e9c" class="outline-4">
-<h4 id="orgddf9e9c"><span class="section-number-4">2.1.2.</span> coordinate geometry</h4>
-</div>
+<li><a id="org6d5ad2b"></a>common notions<br /></li>
 
-<div id="outline-container-org1699a40" class="outline-4">
-<h4 id="org1699a40"><span class="section-number-4">2.1.3.</span> 3D geometry</h4>
-</div>
+<li><a id="org6a8fa4a"></a>five postulates<br /></li>
+</ol>
+</li>
+<li><a id="org8f87580"></a>neutral or absolute geometry<br /></li>
 
-<div id="outline-container-orgb6b0bb4" class="outline-4">
-<h4 id="orgb6b0bb4"><span class="section-number-4">2.1.4.</span> transformational geometry</h4>
+<li><a id="org3657663"></a>Euclid's fifth posttulate<br /></li>
+
+<li><a id="org51fc480"></a>Playfair's postulate or the Euclidian parallel postulate<br /></li>
+
+<li><a id="org85b36a9"></a>statements equivalent to the Euclidian parallel postulate and Euclid's fifth postulate<br /></li>
+
+<li><a id="org34ae001"></a>a few proofs of equivalency<br /></li>
+
+<li><a id="org51c75bb"></a>the remaining propositions(which follow from assuming Euclid's fifth postulate)<br /></li>
+
+<li><a id="org18c8fdd"></a>non-Eclidean geometries<br /></li>
+
+<li><a id="orgfa8ae4c"></a>complementary and supplementary angles<br />
+<ol class="org-ol">
+<li><a id="org7f8363d"></a>complementary angles sum to 90<br /></li>
+
+<li><a id="org4e16ed5"></a>supplementary angles sum to 180<br /></li>
+</ol>
+</li>
+<li><a id="orgf71146b"></a>adjacent and vertical angles<br /></li>
+
+<li><a id="orgf064804"></a>congruence<br />
+<ol class="org-ol">
+<li><a id="org64daf14"></a>some definitions<br /></li>
+
+<li><a id="org82dc77d"></a>triangle congruence<br /></li>
+</ol>
+</li>
+<li><a id="org2f337be"></a>similarity<br /></li>
+
+<li><a id="orgb85798f"></a>properties of triangles<br />
+<ol class="org-ol">
+<li><a id="org99151c4"></a>classifications of triangles<br /></li>
+</ol>
+</li>
+<li><a id="org8352409"></a>concurrence in triangles<br /></li>
+
+<li><a id="orgaa7d5ce"></a>some theorems involving triangles<br /></li>
+
+<li><a id="org89782a4"></a>some trigonometry<br />
+<ol class="org-ol">
+<li><a id="org60f6744"></a>angle measure<br /></li>
+
+<li><a id="org64d815a"></a>trigonometic ratios<br /></li>
+
+<li><a id="org09f5bcf"></a>some identities<br /></li>
+</ol>
+</li>
+<li><a id="org1fa938e"></a>special right triangles<br />
+<ol class="org-ol">
+<li><a id="orgd267cc2"></a>30-60-90<br /></li>
+
+<li><a id="orgc3bf6b2"></a>45-45-90<br /></li>
+</ol>
+</li>
+<li><a id="org7f66954"></a>Law of sines and cosines<br /></li>
+
+<li><a id="orgd8749c6"></a>polygons<br />
+<ol class="org-ol">
+<li><a id="org9bda55d"></a>quadrilatierals<br /></li>
+
+<li><a id="org1d1d9d4"></a>regular poygons<br /></li>
+
+<li><a id="org3ac6be5"></a>areas of regular polygons<br /></li>
+</ol>
+</li>
+<li><a id="org432e787"></a>circles<br /></li>
+
+<li><a id="org3e63e0c"></a>geometric constructions<br /></li>
+</ol>
+</div>
+<div id="outline-container-org6fb1afe" class="outline-4">
+<h4 id="org6fb1afe"><span class="section-number-4">2.1.2.</span> coordinate geometry</h4>
+<div class="outline-text-4" id="text-2-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="org5e3cce3"></a>quadrants<br /></li>
+
+<li><a id="orgb4da291"></a>some coordinate geometry formulas<br /></li>
+
+<li><a id="org29f855e"></a>using coordinate geometry for proofs<br /></li>
+
+<li><a id="orga86183b"></a>conic sections<br />
+<ol class="org-ol">
+<li><a id="org8be4ba2"></a>parabola<br /></li>
+
+<li><a id="orgd874935"></a>ellipse<br /></li>
+
+<li><a id="orgc8ebb7b"></a>circle<br /></li>
+
+<li><a id="org777f9d0"></a>hyperbola<br /></li>
+</ol>
+</li>
+<li><a id="org3355d39"></a>the relationship between rectangular coordinates and polar coordinates<br /></li>
+
+<li><a id="org51697fd"></a>sketching polar curves<br /></li>
+</ol>
+</div>
+<div id="outline-container-org9f14bf5" class="outline-4">
+<h4 id="org9f14bf5"><span class="section-number-4">2.1.3.</span> three-dimensional geometry</h4>
+<div class="outline-text-4" id="text-2-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgd4bd05b"></a>planes and lines<br />
+<ol class="org-ol">
+<li><a id="orgd1b9154"></a>preliminaries<br /></li>
+
+<li><a id="org8a219d5"></a>planes and lines in three-dimensional space<br /></li>
+
+<li><a id="org9e8b25e"></a>lines and planes using<br /></li>
+</ol>
+</li>
+<li><a id="org31eb1b2"></a>prisms<br /></li>
+
+<li><a id="orgfc3a28e"></a>surface area<br /></li>
+
+<li><a id="orgfd5bac6"></a>pyramids<br /></li>
+
+<li><a id="org0040729"></a>cylinders<br /></li>
+
+<li><a id="org6c32f88"></a>cones<br /></li>
+
+<li><a id="org14ddfda"></a>spheres<br /></li>
+</ol>
+</div>
+<div id="outline-container-org23f1b10" class="outline-4">
+<h4 id="org23f1b10"><span class="section-number-4">2.1.4.</span> transformational geometry</h4>
+<div class="outline-text-4" id="text-2-1-4">
+</div>
+<ol class="org-ol">
+<li><a id="orgb2eb2e9"></a>transformations in \(R^2\)<br /></li>
+
+<li><a id="org8517ae3"></a>transformations in \(R^3\)<br /></li>
+
+<li><a id="org32095df"></a>using matrices to represent transformations<br /></li>
+
+<li><a id="orgc35d45a"></a>dilation<br /></li>
+
+<li><a id="org6ba16ef"></a>diation and area<br /></li>
+
+<li><a id="orgb0d8217"></a>dilation and volume<br /></li>
+</ol>
 </div>
 </div>
-<div id="outline-container-org04fee62" class="outline-3">
-<h3 id="org04fee62"><span class="section-number-3">2.2.</span> probability and statistics</h3>
+<div id="outline-container-org961548b" class="outline-3">
+<h3 id="org961548b"><span class="section-number-3">2.2.</span> probability and statistics</h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org9dfb4d6" class="outline-4">
-<h4 id="org9dfb4d6"><span class="section-number-4">2.2.1.</span> probability</h4>
+<div id="outline-container-org1e94d4e" class="outline-4">
+<h4 id="org1e94d4e"><span class="section-number-4">2.2.1.</span> probability</h4>
+<div class="outline-text-4" id="text-2-2-1">
 </div>
+<ol class="org-ol">
+<li><a id="org43c9f3e"></a>sets<br /></li>
 
-<div id="outline-container-orgd6eda56" class="outline-4">
-<h4 id="orgd6eda56"><span class="section-number-4">2.2.2.</span> statistics</h4>
+<li><a id="org3e3ebe0"></a>Venn diagrams<br /></li>
+
+<li><a id="org1122c7b"></a>factorials<br /></li>
+
+<li><a id="orgc65553c"></a>permutations<br /></li>
+
+<li><a id="orgfafc195"></a>combinations<br /></li>
+
+<li><a id="orgf916b1b"></a>events<br /></li>
+
+<li><a id="orgc2c7934"></a>basic properties of probabilities<br /></li>
+
+<li><a id="orgaf45251"></a>the fundamental counting principle<br /></li>
+
+<li><a id="orgd94a8ad"></a>empirical probability<br /></li>
+
+<li><a id="org9b33097"></a>product rule of probability<br /></li>
+
+<li><a id="orgaa83a6d"></a>uniform probability models<br /></li>
+
+<li><a id="org900f9ec"></a>non-uniform probability models<br /></li>
+
+<li><a id="orged67672"></a>the binomial distribution<br />
+<ol class="org-ol">
+<li><a id="orgcfa1873"></a>graphing a binomial distribution<br /></li>
+</ol>
+</li>
+<li><a id="org5735b9f"></a>normal distributions<br /></li>
+
+<li><a id="org4b8c6a9"></a>the standard normal distributon<br /></li>
+
+<li><a id="orgb98ccd5"></a>exponential distribution<br /></li>
+</ol>
+</div>
+<div id="outline-container-org4adeb77" class="outline-4">
+<h4 id="org4adeb77"><span class="section-number-4">2.2.2.</span> statistics</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="org31ad372"></a>measures of central tendency for discrete sets of data<br /></li>
+
+<li><a id="org8f893fb"></a>measures of central tendency for continuous distributions<br /></li>
+
+<li><a id="org7f649d6"></a>discrete distributions<br /></li>
+
+<li><a id="orgb8c8770"></a>box plots<br /></li>
+
+<li><a id="orgd2b2188"></a>variance<br /></li>
+
+<li><a id="orgc7009a3"></a>continuous distributions<br /></li>
+
+<li><a id="org31dab4c"></a>probability sampling methods<br /></li>
+
+<li><a id="org3754439"></a>problems with sampling<br /></li>
+
+<li><a id="org6ef1626"></a>linear regression<br /></li>
+
+<li><a id="org637277d"></a>chi-square test<br /></li>
+
+<li><a id="org6b912e0"></a>correlation<br /></li>
+
+<li><a id="org124311e"></a>dot plots<br /></li>
+
+<li><a id="orga212675"></a>box-and-whisker plots<br /></li>
+
+<li><a id="org1fac549"></a>pie charts<br /></li>
+
+<li><a id="orgb173a85"></a>bar charts<br /></li>
+
+<li><a id="org2658631"></a>line graphs<br /></li>
+
+<li><a id="org24cfe56"></a>histograms<br /></li>
+</ol>
 </div>
 </div>
 </div>
-<div id="outline-container-orgab0bf7f" class="outline-2">
-<h2 id="orgab0bf7f"><span class="section-number-2">3.</span> calculus</h2>
+<div id="outline-container-org7d8f5f3" class="outline-2">
+<h2 id="org7d8f5f3"><span class="section-number-2">3.</span> calculus</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org8b831be" class="outline-3">
-<h3 id="org8b831be"><span class="section-number-3">3.1.</span> calculus</h3>
+<div id="outline-container-org482bf57" class="outline-3">
+<h3 id="org482bf57"><span class="section-number-3">3.1.</span> calculus</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org58403a1" class="outline-4">
-<h4 id="org58403a1"><span class="section-number-4">3.1.1.</span> trigonometry</h4>
+<div id="outline-container-orgb3d4b70" class="outline-4">
+<h4 id="orgb3d4b70"><span class="section-number-4">3.1.1.</span> trigonometry</h4>
+<div class="outline-text-4" id="text-3-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgcb238eb"></a>pythagorean theorem<br /></li>
+
+<li><a id="orgf60db4f"></a>sum formulas<br />
+<ol class="org-ol">
+<li><a id="org862ea72"></a>applying<br /></li>
+</ol>
+</li>
+<li><a id="org9b1a7df"></a>the unit circle definiton<br /></li>
+
+<li><a id="orga589bec"></a>periodic functions<br /></li>
+</ol>
+</div>
+<div id="outline-container-org0fd485d" class="outline-4">
+<h4 id="org0fd485d"><span class="section-number-4">3.1.2.</span> limits and continuity</h4>
 </div>
 
-<div id="outline-container-org7fe020e" class="outline-4">
-<h4 id="org7fe020e"><span class="section-number-4">3.1.2.</span> limits and continuity</h4>
+<div id="outline-container-orgd5dbe1a" class="outline-4">
+<h4 id="orgd5dbe1a"><span class="section-number-4">3.1.3.</span> derivatives and applications</h4>
 </div>
 
-<div id="outline-container-orgbeb2d91" class="outline-4">
-<h4 id="orgbeb2d91"><span class="section-number-4">3.1.3.</span> derivatives and applications</h4>
+<div id="outline-container-org3ac52a2" class="outline-4">
+<h4 id="org3ac52a2"><span class="section-number-4">3.1.4.</span> integrals and applications</h4>
 </div>
 
-<div id="outline-container-orgad6b469" class="outline-4">
-<h4 id="orgad6b469"><span class="section-number-4">3.1.4.</span> integrals and applications</h4>
-</div>
-
-<div id="outline-container-orgbcdd8b5" class="outline-4">
-<h4 id="orgbcdd8b5"><span class="section-number-4">3.1.5.</span> sequences and series</h4>
+<div id="outline-container-orgea1c384" class="outline-4">
+<h4 id="orgea1c384"><span class="section-number-4">3.1.5.</span> sequences and series</h4>
 </div>
 </div>
 </div>
@@ -391,7 +798,7 @@
 <div id="postamble" class="status">
 <p class="date">Date: 2025-03-10 Mon 13:16</p>
 <p class="author">Author: tyler</p>
-<p class="date">Created: 2025-03-16 Sun 19:52</p>
+<p class="date">Created: 2025-03-17 Mon 20:54</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -13,14 +13,59 @@
 *** the real and complex number system
 
 **** properties of the real number system
+:properties:
+:page: 13
+:end:
+***** clousure
+the sum/product of real numbers is a real number
+***** associative
+grouping of the sum/product doesn't matter
+***** commutative
+order doesn't matter in sum/product of real numbers
+***** identity
+an identity acting on a number returns the same number
+***** inverse
+***** distributive
+
 
 **** subsets of the real numbers
 
+***** rational numbers
+
+***** irrational numbers
+
+***** integers
+
+***** whole numbers
+
 **** division involving zero
+
+***** zero divided by a non-zero number
+
+***** non-zero number divided by zero
+
+***** zero divided by zero
 
 **** completeness of the real numbers
 
+
 **** converting a fraction to a decimal
+
+**** converting from decimal to fraction
+
+**** percents
+
+**** scientific notation
+
+**** operation with fractions
+
+**** operations witht decimals
+
+**** exponents
+
+**** ratio and proportion
+
+**** the complex numbers
 
 
 *** number theory
@@ -47,7 +92,57 @@
 
 *** algebraic structures
 
+**** binary operations
+
+**** groups
+
+**** Abelian groups
+
+**** rings
+
+**** fields
+
+**** using properties of the real numbers
+
+**** mathematical arguments involving the reals
+
+**** properties of the complex numbers
+
+**** mathematical arguments involving complex numbers
+
+**** ordering
+
+**** solvability of polynomials over complex numbers
+
 *** polynomial equations and inequalities
+
+**** the fundamental theorem of algebra (FTA)
+
+***** applying the fundamental theorem of algebra
+
+**** rational root theorem (RRT)
+
+***** applying the rational root theorem
+
+**** conjugate root theorem (CRT)
+
+***** applying
+
+**** the binomial theorem
+
+***** applying
+
+**** the remainder theorem
+
+**** the factor theorem
+
+***** applying
+
+**** the quadratic formula theorem
+
+***** applying
+
+**** polynomial inequalities
 
 *** function
 
@@ -74,23 +169,225 @@
 
 **** Euclidean plan geometry
 
+***** definitions
+
+***** common notions
+
+***** five postulates
+
+**** neutral or absolute geometry
+
+**** Euclid's fifth posttulate
+
+**** Playfair's postulate or the Euclidian parallel postulate
+
+**** statements equivalent to the Euclidian parallel postulate and Euclid's fifth postulate
+
+**** a few proofs of equivalency
+
+**** the remaining propositions(which follow from assuming Euclid's fifth postulate)
+
+**** non-Eclidean geometries
+
+**** complementary and supplementary angles
+
+***** complementary angles sum to 90
+
+***** supplementary angles sum to 180
+
+**** adjacent and vertical angles
+
+**** congruence
+
+***** some definitions
+
+***** triangle congruence
+
+**** similarity
+
+**** properties of triangles
+
+***** classifications of triangles
+
+**** concurrence in triangles
+
+**** some theorems involving triangles
+
+**** some trigonometry
+
+***** angle measure
+
+***** trigonometic ratios
+
+***** some identities
+
+**** special right triangles
+
+***** 30-60-90
+
+***** 45-45-90
+
+**** Law of sines and cosines
+
+**** polygons
+
+***** quadrilatierals
+
+***** regular poygons
+
+***** areas of regular polygons
+
+**** circles
+
+**** geometric constructions
+
 *** coordinate geometry
 
-*** 3D geometry
+**** quadrants
+
+**** some coordinate geometry formulas
+
+**** using coordinate geometry for proofs
+
+**** conic sections
+
+***** parabola
+
+***** ellipse
+
+***** circle
+
+***** hyperbola
+
+**** the relationship between rectangular coordinates and polar coordinates
+
+**** sketching polar curves
+
+*** three-dimensional geometry
+
+**** planes and lines
+
+***** preliminaries
+
+***** planes and lines in three-dimensional space
+
+***** lines and planes using
+
+**** prisms
+
+**** surface area
+
+**** pyramids
+
+**** cylinders
+
+**** cones
+
+**** spheres
 
 *** transformational geometry
+
+**** transformations in $R^2$
+
+**** transformations in $R^3$
+
+**** using matrices to represent transformations
+
+**** dilation
+
+**** diation and area
+
+**** dilation and volume
 
 ** probability and statistics
 
 *** probability
 
+**** sets
+
+**** Venn diagrams
+
+**** factorials
+
+**** permutations
+
+**** combinations
+
+**** events
+
+**** basic properties of probabilities
+
+**** the fundamental counting principle
+
+**** empirical probability
+
+**** product rule of probability
+
+**** uniform probability models
+
+**** non-uniform probability models
+
+**** the binomial distribution
+
+***** graphing a binomial distribution
+
+**** normal distributions
+
+**** the standard normal distributon
+
+**** exponential distribution
+
 *** statistics
+
+**** measures of central tendency for discrete sets of data
+
+**** measures of central tendency for continuous distributions
+
+**** discrete distributions
+
+**** box plots
+
+**** variance
+
+**** continuous distributions
+
+**** probability sampling methods
+
+**** problems with sampling
+
+**** linear regression
+
+**** chi-square test
+
+**** correlation
+
+**** dot plots
+
+**** box-and-whisker plots
+
+**** pie charts
+
+**** bar charts
+
+**** line graphs
+
+**** histograms
 
 * calculus
 
 ** calculus
 
 *** trigonometry
+
+**** pythagorean theorem
+
+**** sum formulas
+
+***** applying
+
+**** the unit circle definiton
+
+**** periodic functions
 
 *** limits and continuity
 
