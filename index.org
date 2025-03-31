@@ -10,6 +10,19 @@
 ** the real and complex number system
 *** demonstrate knowledge of the properties of the real number system and its subsets
 **** properties of the real number system
+- closure
+  - the sum or product of two real numbers is a real number:
+  - $$\forall a,b \in R, a + b \in R$$
+  - $$\forall a,b \in R, a \times b \in R$$
+- associative
+  - the grouping in the sum or product of real numbers does not matter
+  - $$\forall a,b,c \in R, (a + b) + c = a + (b + c)$$
+  - $$\forall a,b,c \in R, (ab)c = a(bc)$$
+- commutative
+  - the order in sum or product does not matter (does not hold for subtraction or division).
+- identity
+- inverse
+- distributive
 **** subsets of the real numbers
 ***** rational numbers $\mathbb{Q}$
 ***** irrational numbers
@@ -48,6 +61,8 @@
 * algebra (page 61)
 ** algebraic structures
 *** demonstrate knowledge of why the real numbers and complex numbers are each a field, and that particular rings are not fields(e.g., integers, polynomial rings, matrix rings).
+**** binary operations
+**** groups
 *** apply basic properties of real and complex numbers in constructing mathematical arguments (e.g., $a < b \land c < 0 \implies ac > bc$)
 **** using properties of the real numbers
 **** mathematical arguments involving the reals
