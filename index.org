@@ -295,7 +295,7 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 ** trigonometry
 
-*** Prove that the Pythagorean Theorem is equivalent to the trigonometric identity sin2x + cos2x = 1 and that this identity leads to 1 + tan2x = sec2x and 1 + cot2x = csc2x
+*** Prove that the Pythagorean Theorem is equivalent to the trigonometric identity $sin^2x + cos^2x = 1$ and that this identity leads to $1 + tan^2x = sec^2x$ and $1 + cot^2x = csc^2x$
 
 *** Prove and apply the sine, cosine, and tangent sum formulas for all real values
 
@@ -309,15 +309,43 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 *** Recognize equivalent identities, including applications of the half-angle and double-angle formulas for sines and cosines
 
+** limits and continuity (page 507)
 
+*** Derive basic properties of limits and continuity, including the Sum, Difference, Product, Constant Multiple, and Quotient Rules, using the formal definition of a limit
+*** Show that a polynomial function is continuous at a point
+*** Apply the intermediate value theorem, using the geometric implications of contin
 
-** limits and continuity
+** derivatives and applications (page 529)
 
-** derivatives and applications
+*** Derive the rules of differentiation for polynomial, trigonometric, and logarithmic functions using the formal definition of derivative
 
-** integrals and applications
+*** Interpret the concept of derivative geometrically, numerically, and analytically (i.e., slope of the tangent, limit of difference quotients, extrema, Newton's method, and instantaneous rate of change)
 
-** sequences and series
+*** Interpret both continuous and differentiable functions geometrically and analytically and apply Rolle's theorem, the mean value theorem, and L'Hôpital's rule
+
+*** Use the derivative to solve rectilinear motion, related rate, and optimization problems
+
+*** Use the derivative to analyze functions and planar curves (e.g., maxima, minima, inflection points, concavity)
+
+*** Solve separable first-order differential equations and apply them to growth and decay problems
+
+** integrals and applications (page 582)
+
+*** Derive definite integrals of standard algebraic functions using the formal definition of integral
+
+*** Interpret the concept of a definite integral geometrically, numerically, and analytically (e.g., limit of Riemann sums)
+
+*** Prove the fundamental theorem of calculus, and use it to interpret definite integrals as antiderivatives
+
+*** Apply the concept of integrals to compute the length of curves and the areas and volumes of geometric figures
+
+** sequences and series (page 613)
+
+*** Derive and apply the formulas for the sums of finite arithmetic series and finite and infinite geometric series (e.g., express repeating decimals as a rational number)
+
+*** Determine convergence of a given sequence or series using standard techniques (e.g., ratio, comparison, integral tests)
+
+*** Calculate Taylor series and Taylor polynomials of basic functions
 
 
 
