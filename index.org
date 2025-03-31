@@ -224,6 +224,7 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 **** properties of functions 
 
+
 *** linear algebra
 
 **** introduction to vectors
