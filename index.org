@@ -2,8 +2,9 @@
 #+date:       [2025-03-10 Mon 13:16]
 #+filetags:   :cset:
 #+identifier: 20250310T131634
-#+STARTUP: indent
+#+STARTUP: indent latexpreview
 
+#+LATEX_HEADER: \usepackage{amssymb}
 
 
 * number and quantity; algebra
@@ -12,79 +13,105 @@
 
 *** the real and complex number system
 
-**** properties of the real number system
+**** demonstrate knowledge of the properties of the real number system and it's subsets
+
+***** properties of the real number system
 :properties:
 :page: 13
 :end:
-***** clousure
+****** clousure
+#+begin_quote
 the sum/product of real numbers is a real number
-***** associative
+#+end_quote
+
+****** associative
 grouping of the sum/product doesn't matter
-***** commutative
+****** commutative
 order doesn't matter in sum/product of real numbers
-***** identity
+****** identity
 an identity acting on a number returns the same number
-***** inverse
-***** distributive
+****** inverse
+****** distributive
 
 
-**** subsets of the real numbers
+***** subsets of the real numbers
 
-***** rational numbers
+****** rational numbers $\mathbb{Q}$
 
-***** irrational numbers
+****** irrational numbers
 
-***** integers
+****** integers
 
-***** whole numbers
+****** whole numbers
 
-**** division involving zero
+***** division involving zero
 
-***** zero divided by a non-zero number
+****** zero divided by a non-zero number
 
-***** non-zero number divided by zero
+****** non-zero number divided by zero
 
-***** zero divided by zero
+****** zero divided by zero
 
-**** completeness of the real numbers
+***** completeness of the real numbers
+
+**** perform opertations and recognize equivalent expressions using various representations of real numbers(e.g. fractions, decimals, exponenents)
+
+***** converting a fraction to a decimal
+***** converting from decimal to fraction
+
+***** percents
+
+***** scientific notation
+
+***** operation with fractions
+
+***** operations witht decimals
+
+***** exponents
+
+**** solve real-world and mathematical problems using numerical and algebraic expressions and equations
+
+**** apply proportional relationships to model and solve real-world and mathematical problems
+***** ratio and proportion
+
+**** reason quantitatively and use units to solve problems(i.e. dimensional analysis)
+
+**** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
+***** the complex numbers
 
 
-**** converting a fraction to a decimal
-
-**** converting from decimal to fraction
-
-**** percents
-
-**** scientific notation
-
-**** operation with fractions
-
-**** operations witht decimals
-
-**** exponents
-
-**** ratio and proportion
-
-**** the complex numbers
 
 
 *** number theory
 
-**** divisibility
+**** prove and use basic properties of natural numbers(e.g, properties of divisibility)
 
-**** theorems involving divisibility
+***** divisibility
 
-**** mathematical induction
+***** theorems involving divisibility
 
-**** the division and Euclidian algorithm
+**** use the principle of Mathematical Induction to prove results in number theory
 
-**** applying the Fundamental Theorem of Arithmetic
+***** mathematical induction
 
-**** finding the greatest common factor
+**** be able to apply the Euclidean Algorithm
 
-**** finding the least common multiple
+***** the division and Euclidian algorithm
+****** the division algorithm
 
-**** the relationship between the lcm and the gcf (gcd)
+
+$$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
+
+
+**** apply the Fundamental Theorem of Arithmetic(e.g., find the GCF and the  LCM; show that every fraction is equivalent to a unique fraction where the numerator and denominator are relatively prime; prove that the square root of any number that is not a perfect square is irrational)
+
+***** applying the Fundamental Theorem of Arithmetic
+
+***** finding the greatest common factor
+
+***** finding the least common multiple
+
+***** the relationship between the lcm and the gcf (gcd)
 
 
 
@@ -92,29 +119,69 @@ an identity acting on a number returns the same number
 
 *** algebraic structures
 
-**** binary operations
+**** demonstrate knowledge of why the real numbers and complex numbers are each a field, and that particular rings are not fields(e.g., integers, polynomial rings, matrix rings).
 
-**** groups
+***** binary operations
 
-**** Abelian groups
+***** groups
 
-**** rings
+***** Abelian groups
 
-**** fields
+***** rings
 
-**** using properties of the real numbers
+***** fields
 
-**** mathematical arguments involving the reals
+**** apply basic properties of real and complex numbers in constructing mathematical arguments\(e.g., $ a < b \land c < 0 \implies ac > bc $ \)
 
-**** properties of the complex numbers
+***** using properties of the real numbers
 
-**** mathematical arguments involving complex numbers
+***** mathematical arguments involving the reals
 
-**** ordering
+***** properties of the complex numbers
 
-**** solvability of polynomials over complex numbers
+***** mathematical arguments involving complex numbers
+
+**** demonstrate knowledge that the rational numbers and real numbers can be ordered and the complex numbers cannot be ordered, but that any polynomial equation with real coefficients can be solved in the complex field
+
+***** ordering
+
+***** solvability of polynomials over complex numbers
+
+**** identify and translate between equivalent forms of algebraic expressions and equations using a variety of techniques(e.g., factoring, applying properties of operations).
+
+***** addition, subtraction, and multiplication of polynomials
+
+***** factoring polynomials
+
+****** factoring binomials
+
+****** factoring trinomials
+
+****** non-perfect square trinomials
+
+***** division of polynomials
+
+***** operations with rational expressions
+
+****** adding and subtracting rational expressions
+
+****** multiplying and dividing rational expressions
+
+***** rational expressions and radicals
+
+**** justify the steps in manipulating algebraic expressions and solving algebraic equations and inequalities.
+
+**** represent situations and solve problems using algebraic equations and inequalities.
+
+
 
 *** polynomial equations and inequalities
+
+**** theorems involving divisibility
+
+**** mathematical induction
+
+**** the division and Euclidian
 
 **** the fundamental theorem of algebra (FTA)
 
@@ -143,6 +210,7 @@ an identity acting on a number returns the same number
 ***** applying
 
 **** polynomial inequalities
+
 
 *** function
 
@@ -373,28 +441,120 @@ an identity acting on a number returns the same number
 
 **** histograms
 
+
+
 * calculus
 
 ** calculus
 
 *** trigonometry
 
-**** pythagorean theorem
+**** prove that the Pythagorean Theorem is equivalent to the trigonimic identity $sin^2$
 
-**** sum formulas
+***** pythagorean theorem
 
-***** applying
+**** prove and apply the sine, cosine, and tangent sum formulae for all real values
 
-**** the unit circle definiton
+***** sum formulas
 
-**** periodic functions
+
+****** applying the sum formulas
+
+**** analyze properties of trigonometric functions in a variety of ways(e.g. graphing and solving problems using the unit circle).
+
+***** the unit circle definiton
+
+**** apply the definitions and properties of inverse trigonometric functions(i.e., arcsine, arccos, and arctan)
+
 
 *** limits and continuity
 
+**** derive basic properties of limits and continuity, including the sum, difference, product, constant multiple, and quotient rules using the formal definition of a limit.
+
+
+***** limits
+****** limit theorems
+
+****** one-sided limits
+
+****** limits involving infinity
+
+****** other facts about limits
+
+***** continuity
+
+
+
+
+**** show that a polynomial function is continuous at a point
+
+
+
+**** apply the intermediate value theorem, using the geometric implications of continutiy
+
+***** the intermediate value theorem
+
 *** derivatives and applications
+
+**** derive the rules of differentiation for polynomials, trigonometric, logrithmic functions using the formal definition of derivative
+
+
+
+***** rules of differentiation
+***** chain rule
+***** implicit differentiation
+***** derivatives of exponents
+***** dervatives of logarithms
+***** derviatives of trigonometric functions
+
+
+
+**** interpret the concept of derivative geometrically, numerically and analytically(i.e. slope of a tangent, limit of a difference quotient, extrema, Newton's Method and instantaneous rate of change).
+
+
+***** extrema
+***** Newton's Method
+**** interpret both continuous and differentiable functions geometrically and analytically and apply Rolle's Theorem, the mean value theorem, and L'Hopital's Rule
+
+
+***** continuous and differentiable functions
+****** why continuity and differentiability matter
+***** consequences of the mean value theorem
+
+***** [[https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule][L'Hopital's Rule
+]]
+***** other indeterminate forms
+
+**** use the dervative to solve rectilinear motion, related rate, and optimization problems
+
+***** antiderivatives
+****** some basic antiderivatives
+
+**** use the derivative to analyze functions and planar curves (e.g. maxima, minima, inflection points, concavity)
+
+**** solve separable first-order differential equations and apply them to growth and decay problems
+
 
 *** integrals and applications
 
+**** derive definite integrals of standard algebraic functions using the formal definition of the integral
+
+**** interpret the concept of a definite integral geometrically, numerically, and analytically(e.g., limit of Riemann sums)
+
+**** prove the fundamental theorem of calculus, and use it to interpret definite integrals as antiderivatives.
+
+**** apply the concept of integrals to compute the length of a curve and the areas and volumes of geometric figures.
+
+
+
 *** sequences and series
+
+**** derive and apply the formulae for the sums of finite arithmetic series and finite geometric series(e.g. express repeating decimals as a rational number)
+
+**** determine convergence of a given sequence or series using standard techniques(e.g. ratio, comparison, integral tests)
+
+**** calculate Taylor series and Taylor polynomials of basic functions
+
+
 
 
