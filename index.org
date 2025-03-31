@@ -17,9 +17,6 @@
 :page: 13
 :end:
 ***** clousure
-#+begin_quote
-the sum/product of real numbers is a real number
-#+end_quote
 
 ***** associative
 grouping of the sum/product doesn't matter
@@ -165,155 +162,181 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 
 
-** polynomial equations and inequalities
+** polynomial equations and inequalities (page 116)
+
+*** analyze and solve polynomial equations with real coefficients using: the Fundamental Theorem of Algebra, the Rational Root Theorem for polynomials with integer coefficients, the Conjugate Root Theorem for polynomial equations with real coefficients, and the Binomial Theorem.
+
+*** Prove and use the Factor Theorem and the quadratic formula for real and complex quadratic polynomials
+
+*** Solve polynomial inequalities
 
 
 
-** function
+** functions (page 130)
+
+*** Analyze general properties of functions (i.e., domain and range, one-to-one, onto, inverses, composition, and differences between relations and functions) and apply arithmetic operations on functions
+
+*** Analyze properties of linear functions (e.g., slope, intercepts) using a variety of representations
+
+*** Demonstrate knowledge of why graphs of linear inequalities are half planes and be able to apply this fact
+
+*** Analyze properties of polynomial, rational, radical, and absolute value functions in a variety of ways (e.g., graphing, solving problems) 
+
+*** Analyze properties of exponential and logarithmic functions in a variety of ways (e.g., graphing, solving problems)
+
+*** Model and solve problems using nonlinear functions
 
 
 
 ** linear algebra
 
+*** Understand and apply the geometric interpretation and basic operations of vectors in two and three dimensions, including their scalar multiples
 
+*** Prove the basic properties of vectors (e.g., perpendicular vectors have zero dot product)
 
-* geometry; probability and statistics
+*** Understand and apply the basic properties and operations of matrices and determinants (e.g., to determine the solvability of linear systems of equations)
 
-** geometry
+*** Analyze the properties of proportional relationships, lines, linear equations, and their graphs, and the connections between them
 
-*** plane Euclidean geometry
+*** Model and solve problems using linear equations, pairs of simultaneous linear equations, and their graphs
 
-**** Euclidean plan geometry
 
-***** definitions
 
-***** common notions
+* geometry
 
-***** five postulates
+** plane Euclidean geometry
 
-**** neutral or absolute geometry
+*** Euclidean plan geometry
 
-**** Euclid's fifth posttulate
+**** definitions
 
-**** Playfair's postulate or the Euclidian parallel postulate
+**** common notions
 
-**** statements equivalent to the Euclidian parallel postulate and Euclid's fifth postulate
+**** five postulates
 
-**** a few proofs of equivalency
+*** neutral or absolute geometry
 
-**** the remaining propositions(which follow from assuming Euclid's fifth postulate)
+*** Euclid's fifth posttulate
 
-**** non-Eclidean geometries
+*** Playfair's postulate or the Euclidian parallel postulate
 
-**** complementary and supplementary angles
+*** statements equivalent to the Euclidian parallel postulate and Euclid's fifth postulate
 
-***** complementary angles sum to 90
+*** a few proofs of equivalency
 
-***** supplementary angles sum to 180
+*** the remaining propositions(which follow from assuming Euclid's fifth postulate)
 
-**** adjacent and vertical angles
+*** non-Eclidean geometries
 
-**** congruence
+*** complementary and supplementary angles
 
-***** some definitions
+**** complementary angles sum to 90
 
-***** triangle congruence
+**** supplementary angles sum to 180
 
-**** similarity
+*** adjacent and vertical angles
 
-**** properties of triangles
+*** congruence
 
-***** classifications of triangles
+**** some definitions
 
-**** concurrence in triangles
+**** triangle congruence
 
-**** some theorems involving triangles
+*** similarity
 
-**** some trigonometry
+*** properties of triangles
 
-***** angle measure
+**** classifications of triangles
 
-***** trigonometic ratios
+*** concurrence in triangles
 
-***** some identities
+*** some theorems involving triangles
 
-**** special right triangles
+*** some trigonometry
 
-***** 30-60-90
+**** angle measure
 
-***** 45-45-90
+**** trigonometic ratios
 
-**** Law of sines and cosines
+**** some identities
 
-**** polygons
+*** special right triangles
 
-***** quadrilatierals
+**** 30-60-90
 
-***** regular poygons
+**** 45-45-90
 
-***** areas of regular polygons
+*** Law of sines and cosines
 
-**** circles
+*** polygons
 
-**** geometric constructions
+**** quadrilatierals
 
-*** coordinate geometry
+**** regular poygons
 
-**** quadrants
+**** areas of regular polygons
 
-**** some coordinate geometry formulas
+*** circles
 
-**** using coordinate geometry for proofs
+*** geometric constructions
 
-**** conic sections
+** coordinate geometry
 
-***** parabola
+*** quadrants
 
-***** ellipse
+*** some coordinate geometry formulas
 
-***** circle
+*** using coordinate geometry for proofs
 
-***** hyperbola
+*** conic sections
 
-**** the relationship between rectangular coordinates and polar coordinates
+**** parabola
 
-**** sketching polar curves
+**** ellipse
 
-*** three-dimensional geometry
+**** circle
 
-**** planes and lines
+**** hyperbola
 
-***** preliminaries
+*** the relationship between rectangular coordinates and polar coordinates
 
-***** planes and lines in three-dimensional space
+*** sketching polar curves
 
-***** lines and planes using
+** three-dimensional geometry
 
-**** prisms
+*** planes and lines
 
-**** surface area
+**** preliminaries
 
-**** pyramids
+**** planes and lines in three-dimensional space
 
-**** cylinders
+**** lines and planes using
 
-**** cones
+*** prisms
 
-**** spheres
+*** surface area
 
-*** transformational geometry
+*** pyramids
 
-**** transformations in $R^2$
+*** cylinders
 
-**** transformations in $R^3$
+*** cones
 
-**** using matrices to represent transformations
+*** spheres
 
-**** dilation
+** transformational geometry
 
-**** diation and area
+*** transformations in $R^2$
 
-**** dilation and volume
+*** transformations in $R^3$
+
+*** using matrices to represent transformations
+
+*** dilation
+
+*** diation and area
+
+*** dilation and volume
 
 ** probability and statistics
 
