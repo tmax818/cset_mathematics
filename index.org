@@ -6,228 +6,175 @@
 
 #+LATEX_HEADER: \usepackage{amssymb}
 
+* number and quantity
 
-* number and quantity; algebra
+** the real and complex number system
 
-** number and quantity
+*** demonstrate knowledge of the properties of the real number system and it's subsets
 
-*** the real and complex number system
-
-**** demonstrate knowledge of the properties of the real number system and it's subsets
-
-***** properties of the real number system
+**** properties of the real number system
 :properties:
 :page: 13
 :end:
-****** clousure
+***** clousure
 #+begin_quote
 the sum/product of real numbers is a real number
 #+end_quote
 
-****** associative
+***** associative
 grouping of the sum/product doesn't matter
-****** commutative
+***** commutative
 order doesn't matter in sum/product of real numbers
-****** identity
+***** identity
 an identity acting on a number returns the same number
-****** inverse
-****** distributive
+***** inverse
+***** distributive
 
 
-***** subsets of the real numbers
+**** subsets of the real numbers
 
-****** rational numbers $\mathbb{Q}$
+***** rational numbers $\mathbb{Q}$
 
-****** irrational numbers
+***** irrational numbers
 
-****** integers
+***** integers
 
-****** whole numbers
+***** whole numbers
 
-***** division involving zero
+**** division involving zero
 
-****** zero divided by a non-zero number
+***** zero divided by a non-zero number
 
-****** non-zero number divided by zero
+***** non-zero number divided by zero
 
-****** zero divided by zero
+***** zero divided by zero
 
-***** completeness of the real numbers
+**** completeness of the real numbers
 
-**** perform opertations and recognize equivalent expressions using various representations of real numbers(e.g. fractions, decimals, exponenents)
+*** perform opertations and recognize equivalent expressions using various representations of real numbers(e.g. fractions, decimals, exponenents)
 
-***** converting a fraction to a decimal
-***** converting from decimal to fraction
+**** converting a fraction to a decimal
+**** converting from decimal to fraction
 
-***** percents
+**** percents
 
-***** scientific notation
+**** scientific notation
 
-***** operation with fractions
+**** operation with fractions
 
-***** operations witht decimals
+**** operations witht decimals
 
-***** exponents
+**** exponents
 
-**** solve real-world and mathematical problems using numerical and algebraic expressions and equations
+*** solve real-world and mathematical problems using numerical and algebraic expressions and equations
 
-**** apply proportional relationships to model and solve real-world and mathematical problems
-***** ratio and proportion
+*** apply proportional relationships to model and solve real-world and mathematical problems
+**** ratio and proportion
 
-**** reason quantitatively and use units to solve problems(i.e. dimensional analysis)
+*** reason quantitatively and use units to solve problems(i.e. dimensional analysis)
 
-**** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
-***** the complex numbers
-
-
+*** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
+**** the complex numbers
 
 
-*** number theory
 
-**** prove and use basic properties of natural numbers(e.g, properties of divisibility)
 
-***** divisibility
+** number theory
 
-***** theorems involving divisibility
+*** prove and use basic properties of natural numbers(e.g, properties of divisibility)
 
-**** use the principle of Mathematical Induction to prove results in number theory
+**** divisibility
 
-***** mathematical induction
+**** theorems involving divisibility
 
-**** be able to apply the Euclidean Algorithm
+*** use the principle of Mathematical Induction to prove results in number theory
 
-***** the division and Euclidian algorithm
-****** the division algorithm
+**** mathematical induction
+
+*** be able to apply the Euclidean Algorithm
+
+**** the division and Euclidian algorithm
+***** the division algorithm
 
 
 $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
+*** apply the Fundamental Theorem of Arithmetic(e.g., find the GCF and the  LCM; show that every fraction is equivalent to a unique fraction where the numerator and denominator are relatively prime; prove that the square root of any number that is not a perfect square is irrational)
 
-**** apply the Fundamental Theorem of Arithmetic(e.g., find the GCF and the  LCM; show that every fraction is equivalent to a unique fraction where the numerator and denominator are relatively prime; prove that the square root of any number that is not a perfect square is irrational)
 
-***** applying the Fundamental Theorem of Arithmetic
 
-***** finding the greatest common factor
 
-***** finding the least common multiple
 
-***** the relationship between the lcm and the gcf (gcd)
+* algebra
 
+** algebraic structures
 
+*** demonstrate knowledge of why the real numbers and complex numbers are each a field, and that particular rings are not fields(e.g., integers, polynomial rings, matrix rings).
 
-** algebra
+**** binary operations
 
-*** algebraic structures
+**** groups
 
-**** demonstrate knowledge of why the real numbers and complex numbers are each a field, and that particular rings are not fields(e.g., integers, polynomial rings, matrix rings).
+**** Abelian groups
 
-***** binary operations
+**** rings
 
-***** groups
+**** fields
 
-***** Abelian groups
+*** apply basic properties of real and complex numbers in constructing mathematical arguments \(e.g., a < b \land c < 0 \implies ac > bc  \)
 
-***** rings
+**** using properties of the real numbers
 
-***** fields
+**** mathematical arguments involving the reals
 
-**** apply basic properties of real and complex numbers in constructing mathematical arguments\(e.g., $ a < b \land c < 0 \implies ac > bc $ \)
+**** properties of the complex numbers
 
-***** using properties of the real numbers
+**** mathematical arguments involving complex numbers
 
-***** mathematical arguments involving the reals
+*** demonstrate knowledge that the rational numbers and real numbers can be ordered and the complex numbers cannot be ordered, but that any polynomial equation with real coefficients can be solved in the complex field
 
-***** properties of the complex numbers
+**** ordering
 
-***** mathematical arguments involving complex numbers
+**** solvability of polynomials over complex numbers
 
-**** demonstrate knowledge that the rational numbers and real numbers can be ordered and the complex numbers cannot be ordered, but that any polynomial equation with real coefficients can be solved in the complex field
+*** identify and translate between equivalent forms of algebraic expressions and equations using a variety of techniques(e.g., factoring, applying properties of operations).
 
-***** ordering
+**** addition, subtraction, and multiplication of polynomials
 
-***** solvability of polynomials over complex numbers
+**** factoring polynomials
 
-**** identify and translate between equivalent forms of algebraic expressions and equations using a variety of techniques(e.g., factoring, applying properties of operations).
+***** factoring binomials
 
-***** addition, subtraction, and multiplication of polynomials
+***** factoring trinomials
 
-***** factoring polynomials
+***** non-perfect square trinomials
 
-****** factoring binomials
+**** division of polynomials
 
-****** factoring trinomials
+**** operations with rational expressions
 
-****** non-perfect square trinomials
+***** adding and subtracting rational expressions
 
-***** division of polynomials
+***** multiplying and dividing rational expressions
 
-***** operations with rational expressions
+**** rational expressions and radicals
 
-****** adding and subtracting rational expressions
+*** justify the steps in manipulating algebraic expressions and solving algebraic equations and inequalities.
 
-****** multiplying and dividing rational expressions
+*** represent situations and solve problems using algebraic equations and inequalities.
 
-***** rational expressions and radicals
 
-**** justify the steps in manipulating algebraic expressions and solving algebraic equations and inequalities.
 
-**** represent situations and solve problems using algebraic equations and inequalities.
+** polynomial equations and inequalities
 
 
 
-*** polynomial equations and inequalities
+** function
 
-**** theorems involving divisibility
 
-**** mathematical induction
 
-**** the division and Euclidian
+** linear algebra
 
-**** the fundamental theorem of algebra (FTA)
-
-***** applying the fundamental theorem of algebra
-
-**** rational root theorem (RRT)
-
-***** applying the rational root theorem
-
-**** conjugate root theorem (CRT)
-
-***** applying
-
-**** the binomial theorem
-
-***** applying
-
-**** the remainder theorem
-
-**** the factor theorem
-
-***** applying
-
-**** the quadratic formula theorem
-
-***** applying
-
-**** polynomial inequalities
-
-
-*** function
-
-**** definitions
-
-**** four ways to represent function
-
-**** combining functions 
-
-**** composition of functions
-
-**** properties of functions 
-
-
-*** linear algebra
-
-**** introduction to vectors
 
 
 * geometry; probability and statistics
