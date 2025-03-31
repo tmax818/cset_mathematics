@@ -6,27 +6,13 @@
 
 #+LATEX_HEADER: \usepackage{amssymb}
 
-* number and quantity
+* number and quantity (page 13)
 
 ** the real and complex number system
 
 *** demonstrate knowledge of the properties of the real number system and it's subsets
 
 **** properties of the real number system
-:properties:
-:page: 13
-:end:
-***** clousure
-
-***** associative
-grouping of the sum/product doesn't matter
-***** commutative
-order doesn't matter in sum/product of real numbers
-***** identity
-an identity acting on a number returns the same number
-***** inverse
-***** distributive
-
 
 **** subsets of the real numbers
 
@@ -48,9 +34,20 @@ an identity acting on a number returns the same number
 
 **** completeness of the real numbers
 
+**** REVIEW PROBLEMS
+
+***** name the property:
+
+****** $\frac{1}{2} +\frac{2}{7} \in \mathbb{R}$
+
+::answer:: closure property of addition for $\mathbb{R}$
+
+****** 
+
 *** perform opertations and recognize equivalent expressions using various representations of real numbers(e.g. fractions, decimals, exponenents)
 
 **** converting a fraction to a decimal
+
 **** converting from decimal to fraction
 
 **** percents
@@ -66,9 +63,12 @@ an identity acting on a number returns the same number
 *** solve real-world and mathematical problems using numerical and algebraic expressions and equations
 
 *** apply proportional relationships to model and solve real-world and mathematical problems
+
 **** ratio and proportion
 
+
 *** reason quantitatively and use units to solve problems(i.e. dimensional analysis)
+
 
 *** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
 **** the complex numbers
@@ -102,7 +102,7 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 
 
-* algebra
+* algebra (page 61)
 
 ** algebraic structures
 
@@ -202,329 +202,102 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 
 
-* geometry
+* geometry (page 237)
 
 ** plane Euclidean geometry
 
-*** Euclidean plan geometry
+*** Apply the Parallel Postulate and its implications and justify its equivalents (e.g., the Alternate Interior Angle Theorem, the angle sum of every triangle is 180 degrees)
 
-**** definitions
+*** Demonstrate knowledge of complementary, supplementary, and vertical angles
 
-**** common notions
+*** Prove theorems, justify steps, and solve problems involving similarity and congruence
 
-**** five postulates
+*** Apply and justify properties of triangles (e.g., the Exterior Angle Theorem, concurrence theorems, trigonometric ratios, triangle inequality, Law of Sines, Law of Cosines, the Pythagorean Theorem and its converse)
 
-*** neutral or absolute geometry
+*** Apply and justify properties of polygons and circles from an advanced standpoint (e.g., derive the area formulas for regular polygons and circles from the area of a triangle)
 
-*** Euclid's fifth posttulate
+*** Identify and justify the classical constructions (e.g., angle bisector, perpendicular bisector, replicating shapes, regular polygons with 3, 4, 5, 6, and 8 sides)
 
-*** Playfair's postulate or the Euclidian parallel postulate
 
-*** statements equivalent to the Euclidian parallel postulate and Euclid's fifth postulate
-
-*** a few proofs of equivalency
-
-*** the remaining propositions(which follow from assuming Euclid's fifth postulate)
-
-*** non-Eclidean geometries
-
-*** complementary and supplementary angles
-
-**** complementary angles sum to 90
-
-**** supplementary angles sum to 180
-
-*** adjacent and vertical angles
-
-*** congruence
-
-**** some definitions
-
-**** triangle congruence
-
-*** similarity
-
-*** properties of triangles
-
-**** classifications of triangles
-
-*** concurrence in triangles
-
-*** some theorems involving triangles
-
-*** some trigonometry
-
-**** angle measure
-
-**** trigonometic ratios
-
-**** some identities
-
-*** special right triangles
-
-**** 30-60-90
-
-**** 45-45-90
-
-*** Law of sines and cosines
-
-*** polygons
-
-**** quadrilatierals
-
-**** regular poygons
-
-**** areas of regular polygons
-
-*** circles
-
-*** geometric constructions
 
 ** coordinate geometry
 
-*** quadrants
+*** Use techniques in coordinate geometry to prove geometric theorems
 
-*** some coordinate geometry formulas
+*** Model and solve mathematical and real-world problems by applying geometric concepts to two-dimensional figures
 
-*** using coordinate geometry for proofs
+*** Translate between the geometric description and the equation for a conic section
 
-*** conic sections
+*** Translate between rectangular and polar coordinates and apply polar coordinates and vectors in the plane
 
-**** parabola
 
-**** ellipse
-
-**** circle
-
-**** hyperbola
-
-*** the relationship between rectangular coordinates and polar coordinates
-
-*** sketching polar curves
 
 ** three-dimensional geometry
 
-*** planes and lines
+*** Demonstrate knowledge of the relationships between lines and planes in three dimensions (e.g., parallel, perpendicular, skew, coplanar lines)
 
-**** preliminaries
+*** Apply and justify properties of three-dimensional objects (e.g., the volume and surface area formulas for prisms, pyramids, cones, cylinders, spheres)
 
-**** planes and lines in three-dimensional space
+*** Model and solve mathematical and real-world problems by applying geometric concepts to three-dimensional figures
 
-**** lines and planes using
-
-*** prisms
-
-*** surface area
-
-*** pyramids
-
-*** cylinders
-
-*** cones
-
-*** spheres
 
 ** transformational geometry
 
-*** transformations in $R^2$
+*** Demonstrate knowledge of isometries in two- and three-dimensional space (e.g., rotation, translation, reflection), including their basic properties in relation to congruence
 
-*** transformations in $R^3$
-
-*** using matrices to represent transformations
-
-*** dilation
-
-*** diation and area
-
-*** dilation and volume
-
-** probability and statistics
-
-*** probability
-
-**** sets
-
-**** Venn diagrams
-
-**** factorials
-
-**** permutations
-
-**** combinations
-
-**** events
-
-**** basic properties of probabilities
-
-**** the fundamental counting principle
-
-**** empirical probability
-
-**** product rule of probability
-
-**** uniform probability models
-
-**** non-uniform probability models
-
-**** the binomial distribution
-
-***** graphing a binomial distribution
-
-**** normal distributions
-
-**** the standard normal distributon
-
-**** exponential distribution
-
-*** statistics
-
-**** measures of central tendency for discrete sets of data
-
-**** measures of central tendency for continuous distributions
-
-**** discrete distributions
-
-**** box plots
-
-**** variance
-
-**** continuous distributions
-
-**** probability sampling methods
-
-**** problems with sampling
-
-**** linear regression
-
-**** chi-square test
-
-**** correlation
-
-**** dot plots
-
-**** box-and-whisker plots
-
-**** pie charts
-
-**** bar charts
-
-**** line graphs
-
-**** histograms
+*** Demonstrate knowledge of dilations (e.g., similarity transformations or change in scale factor), including their basic properties in relation to similarity, volume, and area
 
 
 
-* calculus
+
+
+* probability and statistics (page 361)
+
+** probability
+
+*** Prove and apply basic principles of permutations and combinations
+
+*** Illustrate finite probability using a variety of examples and models (e.g., the fundamental counting principles, sample space)
+
+*** Use and explain the concepts of conditional probability and independence
+
+*** Compute and interpret the probability of an outcome, including the probabilities of compound events in a uniform probability model 
+
+*** Use normal, binomial, and exponential distributions to solve and interpret probability problems
+
+*** Calculate expected values and use them to solve problems and evaluate outcomes of decisions
+
+
+
+
+** statistics (page 400)
+
+*** Compute and interpret the mean and median of both discrete and continuous distributions
+
+*** Compute and interpret quartiles, range, interquartile range, and standard deviation of both discrete and continuous distributions
+
+*** Select and evaluate sampling methods appropriate to a task (e.g., random, systematic, cluster, convenience sampling) and display the results
+
+*** Apply the method of least squares to linear regression
+
+*** Apply the chi-square test
+
+*** Interpret scatter plots for bivariate data to investigate patterns of association between two quantities (e.g., correlation), including the use of linear models
+
+*** Interpret data on a single count or measurement variable presented in a variety of formats (e.g., dot plots, histograms, box plots)
+
+*** Demonstrate knowledge of P-values and hypothesis testing
+
+*** Demonstrate knowledge of confidence intervals
+
+
+* calculus (page 461)
 
 ** calculus
 
-*** trigonometry
-
-**** prove that the Pythagorean Theorem is equivalent to the trigonimic identity $sin^2$
-
-***** pythagorean theorem
-
-**** prove and apply the sine, cosine, and tangent sum formulae for all real values
-
-***** sum formulas
+** 
 
 
-****** applying the sum formulas
-
-**** analyze properties of trigonometric functions in a variety of ways(e.g. graphing and solving problems using the unit circle).
-
-***** the unit circle definiton
-
-**** apply the definitions and properties of inverse trigonometric functions(i.e., arcsine, arccos, and arctan)
-
-
-*** limits and continuity
-
-**** derive basic properties of limits and continuity, including the sum, difference, product, constant multiple, and quotient rules using the formal definition of a limit.
-
-
-***** limits
-****** limit theorems
-
-****** one-sided limits
-
-****** limits involving infinity
-
-****** other facts about limits
-
-***** continuity
-
-
-
-
-**** show that a polynomial function is continuous at a point
-
-
-
-**** apply the intermediate value theorem, using the geometric implications of continutiy
-
-***** the intermediate value theorem
-
-*** derivatives and applications
-
-**** derive the rules of differentiation for polynomials, trigonometric, logrithmic functions using the formal definition of derivative
-
-
-
-***** rules of differentiation
-***** chain rule
-***** implicit differentiation
-***** derivatives of exponents
-***** dervatives of logarithms
-***** derviatives of trigonometric functions
-
-
-
-**** interpret the concept of derivative geometrically, numerically and analytically(i.e. slope of a tangent, limit of a difference quotient, extrema, Newton's Method and instantaneous rate of change).
-
-
-***** extrema
-***** Newton's Method
-**** interpret both continuous and differentiable functions geometrically and analytically and apply Rolle's Theorem, the mean value theorem, and L'Hopital's Rule
-
-
-***** continuous and differentiable functions
-****** why continuity and differentiability matter
-***** consequences of the mean value theorem
-
-***** [[https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule][L'Hopital's Rule
-]]
-***** other indeterminate forms
-
-**** use the dervative to solve rectilinear motion, related rate, and optimization problems
-
-***** antiderivatives
-****** some basic antiderivatives
-
-**** use the derivative to analyze functions and planar curves (e.g. maxima, minima, inflection points, concavity)
-
-**** solve separable first-order differential equations and apply them to growth and decay problems
-
-
-*** integrals and applications
-
-**** derive definite integrals of standard algebraic functions using the formal definition of the integral
-
-**** interpret the concept of a definite integral geometrically, numerically, and analytically(e.g., limit of Riemann sums)
-
-**** prove the fundamental theorem of calculus, and use it to interpret definite integrals as antiderivatives.
-
-**** apply the concept of integrals to compute the length of a curve and the areas and volumes of geometric figures.
-
-
-
-*** sequences and series
-
-**** derive and apply the formulae for the sums of finite arithmetic series and finite geometric series(e.g. express repeating decimals as a rational number)
-
-**** determine convergence of a given sequence or series using standard techniques(e.g. ratio, comparison, integral tests)
-
-**** calculate Taylor series and Taylor polynomials of basic functions
 
 
 
