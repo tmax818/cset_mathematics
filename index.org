@@ -293,9 +293,31 @@ $$ a,d \in Z \implies \exists q,r \in Z: 0 \le r < d \land a = dq + r   $$
 
 * calculus (page 461)
 
-** calculus
+** trigonometry
 
-** 
+*** Prove that the Pythagorean Theorem is equivalent to the trigonometric identity sin2x + cos2x = 1 and that this identity leads to 1 + tan2x = sec2x and 1 + cot2x = csc2x
+
+*** Prove and apply the sine, cosine, and tangent sum formulas for all real values
+
+*** Analyze properties of trigonometric functions in a variety of ways (e.g., graphing and solving problems, using the unit circle)
+
+*** Apply the definitions and properties of inverse trigonometric functions (i.e., arcsin, arccos, and arctan)
+
+*** Apply polar representations of complex numbers (e.g., DeMoivre's Theorem)
+
+*** Model periodic phenomena with periodic functions 
+
+*** Recognize equivalent identities, including applications of the half-angle and double-angle formulas for sines and cosines
+
+
+
+** limits and continuity
+
+** derivatives and applications
+
+** integrals and applications
+
+** sequences and series
 
 
 
