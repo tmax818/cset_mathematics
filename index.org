@@ -2,11 +2,13 @@
 #+date:       [2025-03-10 Mon 13:16]
 #+filetags:   :cset:
 #+identifier: 20250310T131634
-#+STARTUP: indent latexpreview
+#+STARTUP: indent latexpreview inlineimages
 #+OPTIONS: org-footnote-auto-label:t
 #+OPTIONS: org-footnote-section:t
 
 #+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{amsthm}
+#+LATEX_HEADER: \newtheorem{mydef}{Definition}
 
 * number and quantity (page 13)
 ** the real and complex number system
@@ -14,12 +16,12 @@
 **** properties of the real number system
 - closure
   - the sum or product of two real numbers is a real number:
-  - $$\forall a,b \in R, a + b \in R$$
-  - $$\forall a,b \in R, a \times b \in R$$
+  - $\forall a,b \in R, a + b \in R$
+  - $\forall a,b \in R, a \times b \in R$
 - associative
   - the grouping in the sum or product of real numbers does not matter
-  - $$\forall a,b,c \in R, (a + b) + c = a + (b + c)$$
-  - $$\forall a,b,c \in R, (ab)c = a(bc)$$
+  - $\forall a,b,c \in R, (a + b) + c = a + (b + c)$
+  - $\forall a,b,c \in R, (ab)c = a(bc)$
 - commutative
   - the order in sum or product does not matter (does not hold for subtraction or division).
 - identity
@@ -32,7 +34,7 @@
 ***** whole numbers
 **** division involving zero
 **** completeness of the real numbers
-**** REVIEW PROBLEMS
+**** *REVIEW PROBLEMS*
 ***** name the property:
 ****** $\frac{1}{2} +\frac{2}{7} \in \mathbb{R}$
 ::answer:: closure property of addition for $\mathbb{R}$
@@ -48,11 +50,11 @@
 *** solve real-world and mathematical problems using numerical and algebraic expressions and equations
 *** apply proportional relationships to model and solve real-world and mathematical problems
 **** ratio and proportion
-*** reason quantitatively and use units to solve problems(i.e. dimensional analysis)
+*** reason quantitatively and use units to solve problems (i.e. dimensional analysis)
 *** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
 **** the complex numbers
 ** number theory (page 44)
-*** prove and use basic properties of natural numbers(e.g, properties of divisibility)
+*** prove and use basic properties of natural numbers (e.g, properties of divisibility)
 **** divisibility
 **** theorems involving divisibility
 *** use the principle of Mathematical Induction to prove results in number theory
@@ -97,10 +99,17 @@
 *** Analyze properties of polynomial, rational, radical, and absolute value functions in a variety of ways (e.g., graphing, solving problems) 
 *** Analyze properties of exponential and logarithmic functions in a variety of ways (e.g., graphing, solving problems)
 *** Model and solve problems using nonlinear functions
-** linear algebra
-*** Understand and apply the geometric interpretation and basic operations of vectors in two and three dimensions, including their scalar multiples
+** linear algebra (page 187)
+*** Understand and apply the geometric interpretation and basic operations of vectors in two and three dimensions, including their scalar multiples.
+**** introduction to vectors
+- *scalar quantities*:: physical quantities that can be represented by a single real number.
+- *vector quantities*:: concepts that require two or more numbers for their representations.
+   [[file:./resources/vectorparts.png]]
+- *vector addition*::
+**** rectanular coordinate system in $R^2$ and $R^3$
 *** Prove the basic properties of vectors (e.g., perpendicular vectors have zero dot product)
-*** Understand and apply the basic properties and operations of matrices and determinants (e.g., to determine the solvability of linear systems of equations)
+*** Understand and apply the basic properties and operations of matrices and determinants (e.g., to determine the solvability of linear systems of equations) (page 202)
+**** systems of linear equations
 *** Analyze the properties of proportional relationships, lines, linear equations, and their graphs, and the connections between them
 *** Model and solve problems using linear equations, pairs of simultaneous linear equations, and their graphs
 * geometry (page 237)
