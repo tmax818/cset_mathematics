@@ -1,0 +1,182 @@
+
+#+title:      CSET mathematics preparation
+#+date:       [2025-03-10 Mon 13:16]
+#+filetags:   :cset:
+#+identifier: 20250310T131634
+#+STARTUP: indent latexpreview inlineimages
+#+OPTIONS: org-footnote-auto-label:t
+#+OPTIONS: org-footnote-section:t
+
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{amsthm}
+#+LATEX_HEADER: \newtheorem{mydef}{Definition}
+
+* number and quantity (page 13)
+** the real and complex number system
+*** demonstrate knowledge of the properties of the real number system and its subsets
+**** properties of the real number system
+- *closure*
+  - the sum or product of two real numbers is a real number:
+  - $\forall a,b \in R, a + b \in R$
+  - $\forall a,b \in R, a \times b \in R$
+- *associative*
+  - the grouping in the sum or product of real numbers does not matter
+  - $\forall a,b,c \in R, (a + b) + c = a + (b + c)$
+  - $\forall a,b,c \in R, (ab)c = a(bc)$
+- *commutative*
+  - the order in sum or product does not matter (does not hold for subtraction or division).
+- *identity*
+- *inverse*
+- *distributive*
+**** subsets of the real numbers
+***** rational numbers $\mathbb{Q}$
+***** irrational numbers
+***** integers
+***** whole numbers
+**** division involving zero
+**** completeness of the real numbers
+**** *REVIEW PROBLEMS*
+***** name the property:
+****** $\frac{1}{2} +\frac{2}{7} \in \mathbb{R}$
+::answer:: closure property of addition for $\mathbb{R}$
+*** perform opertations and recognize equivalent expressions using various representations of real numbers(e.g. fractions, decimals, exponenents) (page 18)
+**** converting a fraction to a decimal
+**** converting from decimal to fraction
+**** percents
+**** scientific notation
+**** operation with fractions
+**** operations with decimals
+**** exponents
+**** REVIEW PROBLEMS
+*** solve real-world and mathematical problems using numerical and algebraic expressions and equations
+*** apply proportional relationships to model and solve real-world and mathematical problems
+**** ratio and proportion
+*** reason quantitatively and use units to solve problems (i.e. dimensional analysis)
+*** perform operations on complex numbers and represent complex numbers and their operations in the complex plain
+**** the complex numbers
+** number theory (page 44)
+*** prove and use basic properties of natural numbers (e.g, properties of divisibility)
+**** divisibility
+**** theorems involving divisibility
+*** use the principle of Mathematical Induction to prove results in number theory
+**** mathematical induction
+*** be able to apply the Euclidean Algorithm
+**** the division and Euclidian algorithm
+*** apply the Fundamental Theorem of Arithmetic(e.g., find the GCF and the  LCM; show that every fraction is equivalent to a unique fraction where the numerator and denominator are relatively prime; prove that the square root of any number that is not a perfect square is irrational)
+* algebra (page 61)
+** algebraic structures
+*** demonstrate knowledge of why the real numbers and complex numbers are each a field, and that particular rings are not fields(e.g., integers, polynomial rings, matrix rings).
+**** binary operations
+**** groups
+*** apply basic properties of real and complex numbers in constructing mathematical arguments (e.g., $a < b \land c < 0 \implies ac > bc$)
+**** using properties of the real numbers
+**** mathematical arguments involving the reals
+**** properties of the complex numbers
+**** mathematical arguments involving complex numbers
+*** demonstrate knowledge that the rational numbers and real numbers can be ordered and the complex numbers cannot be ordered, but that any polynomial equation with real coefficients can be solved in the complex field
+**** ordering
+**** solvability of polynomials over complex numbers
+*** identify and translate between equivalent forms of algebraic expressions and equations using a variety of techniques(e.g., factoring, applying properties of operations).
+**** addition, subtraction, and multiplication of polynomials
+**** factoring polynomials
+***** factoring binomials
+***** factoring trinomials
+***** non-perfect square trinomials
+**** division of polynomials
+**** operations with rational expressions
+***** adding and subtracting rational expressions
+***** multiplying and dividing rational expressions
+**** rational expressions and radicals
+*** justify the steps in manipulating algebraic expressions and solving algebraic equations and inequalities.
+*** represent situations and solve problems using algebraic equations and inequalities.
+** polynomial equations and inequalities (page 116)
+*** analyze and solve polynomial equations with real coefficients using: the Fundamental Theorem of Algebra, the Rational Root Theorem for polynomials with integer coefficients, the Conjugate Root Theorem for polynomial equations with real coefficients, and the Binomial Theorem.
+*** Prove and use the Factor Theorem and the quadratic formula for real and complex quadratic polynomials
+*** Solve polynomial inequalities
+** functions (page 130)
+*** Analyze general properties of functions (i.e., domain and range, one-to-one, onto, inverses, composition, and differences between relations and functions) and apply arithmetic operations on functions
+*** Analyze properties of linear functions (e.g., slope, intercepts) using a variety of representations
+*** Demonstrate knowledge of why graphs of linear inequalities are half planes and be able to apply this fact
+*** Analyze properties of polynomial, rational, radical, and absolute value functions in a variety of ways (e.g., graphing, solving problems) 
+*** Analyze properties of exponential and logarithmic functions in a variety of ways (e.g., graphing, solving problems)
+*** Model and solve problems using nonlinear functions
+** linear algebra (page 187)
+*** Understand and apply the geometric interpretation and basic operations of vectors in two and three dimensions, including their scalar multiples.
+**** introduction to vectors
+- *scalar quantities*:: physical quantities that can be represented by a single real number.
+- *vector quantities*:: concepts that require two or more numbers for their representations.
+   [[file:./resources/vectorparts.png]]
+- *vector addition*::
+**** rectanular coordinate system in $R^2$ and $R^3$
+*** Prove the basic properties of vectors (e.g., perpendicular vectors have zero dot product)
+*** Understand and apply the basic properties and operations of matrices and determinants (e.g., to determine the solvability of linear systems of equations) (page 202)
+**** systems of linear equations
+*** Analyze the properties of proportional relationships, lines, linear equations, and their graphs, and the connections between them
+*** Model and solve problems using linear equations, pairs of simultaneous linear equations, and their graphs
+* geometry (page 237)
+** plane Euclidean geometry [fn:: see [[http://aleph0.clarku.edu/~djoyce/java/elements/][djoyce]]]
+*** Apply the Parallel Postulate and its implications and justify its equivalents (e.g., the Alternate Interior Angle Theorem, the angle sum of every triangle is 180 degrees)
+*** Demonstrate knowledge of complementary, supplementary, and vertical angles
+*** Prove theorems, justify steps, and solve problems involving similarity and congruence
+*** Apply and justify properties of triangles (e.g., the Exterior Angle Theorem, concurrence theorems, trigonometric ratios, triangle inequality, Law of Sines, Law of Cosines, the Pythagorean Theorem and its converse)
+*** Apply and justify properties of polygons and circles from an advanced standpoint (e.g., derive the area formulas for regular polygons and circles from the area of a triangle)
+*** Identify and justify the classical constructions (e.g., angle bisector, perpendicular bisector, replicating shapes, regular polygons with 3, 4, 5, 6, and 8 sides)
+** coordinate geometry
+*** Use techniques in coordinate geometry to prove geometric theorems
+*** Model and solve mathematical and real-world problems by applying geometric concepts to two-dimensional figures
+*** Translate between the geometric description and the equation for a conic section
+*** Translate between rectangular and polar coordinates and apply polar coordinates and vectors in the plane
+** three-dimensional geometry
+*** Demonstrate knowledge of the relationships between lines and planes in three dimensions (e.g., parallel, perpendicular, skew, coplanar lines)
+*** Apply and justify properties of three-dimensional objects (e.g., the volume and surface area formulas for prisms, pyramids, cones, cylinders, spheres)
+*** Model and solve mathematical and real-world problems by applying geometric concepts to three-dimensional figures
+** transformational geometry
+*** Demonstrate knowledge of isometries in two- and three-dimensional space (e.g., rotation, translation, reflection), including their basic properties in relation to congruence
+*** Demonstrate knowledge of dilations (e.g., similarity transformations or change in scale factor), including their basic properties in relation to similarity, volume, and area
+* probability and statistics (page 361)
+** probability
+*** Prove and apply basic principles of permutations and combinations
+*** Illustrate finite probability using a variety of examples and models (e.g., the fundamental counting principles, sample space)
+*** Use and explain the concepts of conditional probability and independence
+*** Compute and interpret the probability of an outcome, including the probabilities of compound events in a uniform probability model 
+*** Use normal, binomial, and exponential distributions to solve and interpret probability problems
+*** Calculate expected values and use them to solve problems and evaluate outcomes of decisions
+** statistics (page 400)
+*** Compute and interpret the mean and median of both discrete and continuous distributions
+*** Compute and interpret quartiles, range, interquartile range, and standard deviation of both discrete and continuous distributions
+*** Select and evaluate sampling methods appropriate to a task (e.g., random, systematic, cluster, convenience sampling) and display the results
+*** Apply the method of least squares to linear regression
+*** Apply the chi-square test
+*** Interpret scatter plots for bivariate data to investigate patterns of association between two quantities (e.g., correlation), including the use of linear models
+*** Interpret data on a single count or measurement variable presented in a variety of formats (e.g., dot plots, histograms, box plots)
+*** Demonstrate knowledge of P-values and hypothesis testing
+*** Demonstrate knowledge of confidence intervals
+* calculus (page 461)
+** trigonometry
+*** Prove that the Pythagorean Theorem is equivalent to the trigonometric identity $sin^2x + cos^2x = 1$ and that this identity leads to $1 + tan^2x = sec^2x$ and $1 + cot^2x = csc^2x$
+*** Prove and apply the sine, cosine, and tangent sum formulas for all real values
+*** Analyze properties of trigonometric functions in a variety of ways (e.g., graphing and solving problems, using the unit circle)
+*** Apply the definitions and properties of inverse trigonometric functions (i.e., arcsin, arccos, and arctan)
+*** Apply polar representations of complex numbers (e.g., DeMoivre's Theorem)
+*** Model periodic phenomena with periodic functions 
+*** Recognize equivalent identities, including applications of the half-angle and double-angle formulas for sines and cosines
+** limits and continuity (page 507)
+*** Derive basic properties of limits and continuity, including the Sum, Difference, Product, Constant Multiple, and Quotient Rules, using the formal definition of a limit
+*** Show that a polynomial function is continuous at a point
+*** Apply the intermediate value theorem, using the geometric implications of contin
+** derivatives and applications (page 529)
+*** Derive the rules of differentiation for polynomial, trigonometric, and logarithmic functions using the formal definition of derivative
+*** Interpret the concept of derivative geometrically, numerically, and analytically (i.e., slope of the tangent, limit of difference quotients, extrema, Newton's method, and instantaneous rate of change)
+*** Interpret both continuous and differentiable functions geometrically and analytically and apply Rolle's theorem, the mean value theorem, and L'Hôpital's rule
+*** Use the derivative to solve rectilinear motion, related rate, and optimization problems
+*** Use the derivative to analyze functions and planar curves (e.g., maxima, minima, inflection points, concavity)
+*** Solve separable first-order differential equations and apply them to growth and decay problems
+** integrals and applications (page 582)
+*** Derive definite integrals of standard algebraic functions using the formal definition of integral
+*** Interpret the concept of a definite integral geometrically, numerically, and analytically (e.g., limit of Riemann sums)
+*** Prove the fundamental theorem of calculus, and use it to interpret definite integrals as antiderivatives
+*** Apply the concept of integrals to compute the length of curves and the areas and volumes of geometric figures
+** sequences and series (page 613)
+*** Derive and apply the formulas for the sums of finite arithmetic series and finite and infinite geometric series (e.g., express repeating decimals as a rational number)
+*** Determine convergence of a given sequence or series using standard techniques (e.g., ratio, comparison, integral tests)
+*** Calculate Taylor series and Taylor polynomials of basic functions
