@@ -114,7 +114,7 @@
 *** Analyze the properties of proportional relationships, lines, linear equations, and their graphs, and the connections between them
 *** Model and solve problems using linear equations, pairs of simultaneous linear equations, and their graphs
 * geometry (page 237)
-** plane Euclidean geometry [fn:: see [[http://aleph0.clarku.edu/~djoyce/java/elements/][djoyce]]]
+** plane [[denote:20250101T174628][Euclidean geometry]] [fn: see [[http://aleph0.clarku.edu/~djoyce/java/elements/][djoyce]]]
 *** Apply the Parallel Postulate and its implications and justify its equivalents (e.g., the Alternate Interior Angle Theorem, the angle sum of every triangle is 180 degrees)
 *** Demonstrate knowledge of complementary, supplementary, and vertical angles
 *** Prove theorems, justify steps, and solve problems involving similarity and congruence
